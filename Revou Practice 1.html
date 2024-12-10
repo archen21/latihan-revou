@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Practice 1.css">
+</head>
+<body>
+    <header><h1>Let's Practice !</h1></header>
+    <nav>
+        <h2>Form Belajar</h2>
+        <p>Ini adalah website latihan pertama</p>
+    </nav>
+    <div class="container">
+        <div class="form-container">
+            <form>
+                <table>
+                    <tr>
+                        <td><label for="name">Nama</label></td>
+                        <td>:</td>
+                        <td><input type="text" id="name" name="name" placeholder="Nama"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="dob">Tanggal Lahir</label></td>
+                        <td>:</td>
+                        <td><input type="date" id="dob" name="dob"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Jenis Kelamin</label></td>
+                        <td>:</td>
+                        <td class="radio-group">
+                            <label><input type="radio" name="gender" value="Laki-Laki"> Laki-Laki</label>
+                            <label><input type="radio" name="gender" value="Perempuan"> Perempuan</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="message">Pesan</label></td>
+                        <td>:</td>
+                        <td><textarea id="message" name="message" placeholder="Pesan" rows="4"></textarea></td>
+                    </tr>
+                </table>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nama</th>
+                        <th>Tanggal Lahir</th>
+                        <th>Jenis Kelamin</th>
+                        <th>Pesan</th>
+                        <th>Profile</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ada Lovelace</td>
+                        <td>December 10, 1815</td>
+                        <td>Perempuan</td>
+                        <td>Belajar Buat Website</td>
+                        <td><span class="action-link">Klik Disini</span></td>
+                        <td><span class="delete-icon">🗑️</span></td>
+                    </tr>
+                    <tr>
+                        <td>Grace Hopper</td>
+                        <td>December 9, 1906</td>
+                        <td>Perempuan</td>
+                        <td>Hello World</td>
+                        <td><span class="action-link">Klik Disini</span></td>
+                        <td><span class="delete-icon">🗑️</span></td>
+                    </tr>
+                    <tr>
+                        <td>Margaret Hamilton</td>
+                        <td>August 17, 1936</td>
+                        <td>Perempuan</td>
+                        <td>Test Dulu</td>
+                        <td><span class="action-link">Klik Disini</span></td>
+                        <td><span class="delete-icon">🗑️</span></td>
+                    </tr>
+                    <tr>
+                        <td>Joan Clarke</td>
+                        <td>June 24, 1917</td>
+                        <td>Laki-Laki</td>
+                        <td>Selalu Semangat</td>
+                        <td><span class="action-link">Klik Disini</span></td>
+                        <td><span class="delete-icon">🗑️</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

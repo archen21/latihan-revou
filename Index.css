@@ -1,3 +1,24 @@
 .container {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.header {
+    background-color: bisque;
+    padding: 10px;
+}
+
+.navbar {
     background-color: aqua;
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+
+.content {
+    background-color: blueviolet;
 }
